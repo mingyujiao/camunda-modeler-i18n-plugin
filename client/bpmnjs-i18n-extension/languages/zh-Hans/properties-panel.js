@@ -58,7 +58,7 @@ export default {
     'Date': '日期',
     'Decision Ref': '决定参考',
     'Default Value': '默认值',
-    'Delegate Expression': '代表表达',
+    'Delegate Expression': '委托表达式',
     'Delegate Variable Mapping': '委托变量映射',
     'delete': '删除',
     'deployment': '部署',
