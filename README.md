@@ -1,3 +1,14 @@
+# 部署方式
+1. npm install
+2. npm run build
+3. 将工程复制到 camunda-modeler 安装目录中 resources\plugins
+   ![Screenshot of Camunda Modeler in German](./img/buildpath.png)
+4. 实际效果图
+   ![Screenshot of Camunda Modeler in German](./img/pag.png)
+5. 部分字段参考 [bpmn-vue-activiti]: https://github.com/Yiuman/bpmn-vue-activiti/blob/main/src/bpmn/i18n/zh.ts  
+   [bpmn-js-i18n]: https://github.com/bpmn-io/bpmn-js-i18n/blob/master/translations/zn.js  
+  上面文档中没有的字段，使用谷歌翻译。感觉不妥的地方，欢迎 issue，或者修改翻译文档中对应字段的描述即可。
+
 # Camunda Modeler I18N-Plugin
 
 This plugin allows you to translate the UI of the Camunda Modeler. It contains translations for German, English and Portuguese and can be easily extended or customized.

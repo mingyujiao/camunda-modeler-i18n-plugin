@@ -17,16 +17,17 @@
 import de from "./languages/de.js";
 import en from "./languages/en.js";
 import pt_br from "./languages/pt-br.js";
+import ZhHans from "./languages/zh-Hans";
 
 /**
  * All available languages.
  */
 const languages = {
-    de, en, pt_br
+    de, en, pt_br, ZhHans
 };
 
 // The default language to use if none is specified in the configuration
-const defaultLanguage = "en";
+const defaultLanguage = "ZhHans";
 
 
 // Contains all missing translations discovered to prevent logging them

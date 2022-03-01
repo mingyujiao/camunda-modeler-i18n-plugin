@@ -21,7 +21,7 @@ import translate from "../bpmnjs-i18n-extension";
 import ConfigModal from "./ConfigModal";
 
 // The default language
-const defaultLanguage = "en";
+const defaultLanguage = "ZhHans";
 
 //config key
 const configKey = "i18n";
@@ -34,7 +34,8 @@ const defaultState = {
 const options = [
     {value: 'de', label: 'Deutsch'},
     {value: 'en', label: 'English'},
-    {value: 'pt_br', label: 'Português (Brasil)'}
+    {value: 'pt_br', label: 'Português (Brasil)'},
+    {value: 'ZhHans', label: '中文简体'}
 ]
 
 /**
